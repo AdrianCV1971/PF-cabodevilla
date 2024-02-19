@@ -1,11 +1,20 @@
-/*Reset - Configuracion de mis estilos*/
-    
-
-/*header*/
-
-
-/*main*/
-
-
-
-/*footer/
+/*Reset - Configuracion de estilos*/
+*{
+    font-family: 'Quicksand', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+/* header */
+.navbar{
+    background-color: #72b5cb;
+    grid-area: initial;
+}
+.navbar-nav{
+     background-color: #7fffee;
+     display: flex;
+     justify-content: left;
+     align-items: end;}
+/* Carousel */
+.grid-container{
+        display: grid;
+}
