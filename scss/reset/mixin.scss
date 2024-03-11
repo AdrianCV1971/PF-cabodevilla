@@ -1,0 +1,13 @@
+// MIXIN CON PARAMETROS- Declaro
+//Invocar - @include
+
+@mixin size($W, $h){
+    height: $h;
+    width:$w;
+    }
+@mixin alineaciones($justi,$align, $spacing){
+    display: flex;
+    justify-content: $justi;
+    align-items: $align;
+    gap: $spacing;
+}

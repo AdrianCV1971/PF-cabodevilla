@@ -1,0 +1,31 @@
+$proyect-font: 'Quicksand', sans-serif;
+
+//colores
+$color-white:#7fffee;
+$bs-primary:#e0ecea;
+$bg-primary:#ff7f88;
+$color-txt:#050505;
+$bg-transparencia:#7fffee;
+
+// icono de red social-hover de color
+
+$redes-sociales:(
+    instagram: #cf0916,
+    whatsapp:  #69eedd,
+    twitter:  #161414,
+    facebook: #4e09cf,
+
+    //redes    color
+    );
+
+    @each $redes, $color in $redes-sociales{
+       .bi-#{$redes}{
+           color: $color;
+           width: 30px;
+           height: 30px;
+           &:hover{
+             box-shadow: 10px 10px 10px $color;
+        }
+       }
+    }
+ 
